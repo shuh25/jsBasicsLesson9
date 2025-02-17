@@ -21,25 +21,12 @@ console.log(SumNums3);
 //------задание 4
 
 const Nums4 = [1, 2, 3, 4, 5];
-
+const reversNums4 = []; 
 for (let i = Nums4.length - 1; i >= 0; i--) {
-    console.log(Nums4[i]);
+    reversNums4.push(Nums4[i]);
 }
 
-//--------задание 4
-
-const Nums5 = ['A', 'B', 'C'];
-let reversNums5 = [];
-
-for (let i = Nums5.length - 1; i >= 0; i--) {
-   
-    reversNums5.push(i);
-
-}
-
-console.log(reversNums5);
-// не получилось вывести эелементы в конслоль , только индекс 
-
+console.log(reversNums4);
 
 //------задание 5
 
@@ -59,8 +46,3 @@ console.log(c);
 const d = [1, 2, 3];
 d.push(4);
 console.log(d);
-
-
-
-
-
